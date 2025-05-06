@@ -1,0 +1,26 @@
+title: Deviagames Blog
+description: Um blog sobre jogos e tecnologia
+baseurl: ""
+url: ""
+
+# Configurações do tema
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Configurações de cores personalizadas
+colors:
+  primary: "#6B46C1"    # Roxo principal
+  secondary: "#48BB78"  # Verde principal
+  background: "#1A1A1A" # Fundo escuro
+  text: "#E2E8F0"      # Texto claro
+  accent: "#9F7AEA"    # Roxo claro para destaques
+  success: "#38A169"   # Verde mais escuro para elementos de sucesso
+
+# Configurações de build
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    theme: monokai 
