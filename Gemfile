@@ -2,8 +2,9 @@ source "https://rubygems.org"
 
 ruby "3.1.0"
 
-gem "jekyll", "~> 4.4.1"
+gem "jekyll", "~> 4.3.2"
 gem "minima", "~> 2.5"
+gem "json", "~> 2.6.3"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
